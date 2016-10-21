@@ -1,0 +1,19 @@
+{
+  "name": "rollup-test",
+  "version": "0.0.0",
+  "author": "ambrowning89@gmail.com",
+  "description": "node.declaration.gatherPossibleValues",
+  "devDependencies": {
+    "bower": "1.x.x",
+    "lodash": "^4.5.1",
+    "rollup": "^0.36.3",
+    "rollup-plugin-commonjs": "5.0.5",
+    "rollup-plugin-includepaths": "^0.1.6"
+  },
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "engines": {
+    "node": ">=4.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "rollup-test",
+  "version": "0.0.0",
+  "main": [
+    "dist/rollup-test.js"
+  ],
+  "ignore": [],
+  "dependencies": {
+    "jquery": "2.1.1",
+    "lodash": "~3.10.1"
+  },
+  "devDependencies": {},
+  "private": true
+}
