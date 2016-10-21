@@ -4,4 +4,4 @@ var foo = require('./shim.js');
 
 foo();
 
-module.exports();
+module.exports = {};

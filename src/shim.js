@@ -2,6 +2,4 @@
 
 var foo = require('foo');
 
-module.exports = {
-  foo: foo,
-}
+module.exports = foo;
