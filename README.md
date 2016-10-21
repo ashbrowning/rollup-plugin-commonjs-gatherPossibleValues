@@ -15,14 +15,13 @@ npm install
 npm run rollup
 ```
 
-### module_foo_*.js
+### module_foo.js
 
 This demonstrates the issue
 
 ```
 > rollup -c
 
-Treating 'foo' as external dependency
 Treating 'foo' as external dependency
 Treating 'foo' as external dependency
 node.declaration.gatherPossibleValues is not a function
@@ -40,7 +39,18 @@ TypeError: node.declaration.gatherPossibleValues is not a function
 Type rollup --help for help, or visit https://github.com/rollup/rollup/wiki
 ```
 
-### module_foo_es6_*.js
+### module_foo_es6.js
+
+No issue here
+
+```
+> rollup -c
+
+Treating 'foo' as external dependency
+```
+
+
+### module_foo_prop.js
 
 No issue here
 
@@ -49,10 +59,10 @@ No issue here
 
 Treating 'foo' as external dependency
 Treating 'foo' as external dependency
+
 ```
 
-
-### module_foo_prop_*.js
+### module_workaround.js
 
 No issue here
 
@@ -61,7 +71,5 @@ No issue here
 
 Treating 'foo' as external dependency
 Treating 'foo' as external dependency
-Treating 'foo' as external dependency
 
 ```
-
